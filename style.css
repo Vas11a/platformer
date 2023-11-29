@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 50px;
+}
+
+.container{
+    width: 500px;
+    height: 360px;
+    outline: 3px solid black;
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.pixel{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+background-size: cover;
+    position: absolute;
+}
+
+.player{
+    position: absolute;
+    background-image: url('./imgs/player.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
